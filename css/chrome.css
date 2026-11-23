@@ -2,7 +2,7 @@
 nav.top{position:fixed;inset:0 0 auto 0;background:linear-gradient(rgba(5,5,5,.8),transparent);z-index:50;display:flex;align-items:center;justify-content:space-between;padding:20px var(--pad);transition:.4s}
 nav.top.solid,nav.top.open{background:rgba(5,5,5,.94);backdrop-filter:blur(14px);padding-block:14px;border-bottom:1px solid var(--line)}
 .logo{font:700 14px var(--sans);letter-spacing:.3em;text-transform:uppercase;text-decoration:none}.logo b{color:var(--gold)}
-nav.top .links{display:flex;gap:26px;align-items:center}
+nav.top .links{display:flex;gap:clamp(14px,1.7vw,26px);align-items:center}
 nav.top .links a{font:600 11px var(--sans);letter-spacing:.22em;text-transform:uppercase;text-decoration:none;color:var(--cream);opacity:.85}
 nav.top .links a:hover,nav.top .links a[aria-current]{color:var(--gold);opacity:1}
 nav.top .links a.cta{border:1px solid var(--gold);padding:13px 20px;color:var(--gold)}
