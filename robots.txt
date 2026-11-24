@@ -1,2 +1,7 @@
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /the-restarter/
+Disallow: /the-hidden-leader/
+Disallow: /the-emerging-executor/
+Disallow: /the-operator/
+Disallow: /the-overloaded-visionary/
