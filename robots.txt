@@ -5,3 +5,4 @@ Disallow: /the-hidden-leader/
 Disallow: /the-emerging-executor/
 Disallow: /the-operator/
 Disallow: /the-overloaded-visionary/
+Sitemap: https://shameerempowersyou.com/sitemap.xml
